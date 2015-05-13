@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes"/><!-- 안드로이드 주소줄 없애기 -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/><!-- iOS 주소줄 없애기 -->
+    <link rel="apple-touch-icon" href="/img/taleline_icon.png"/><!-- 아이콘 설정 -->          
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" class="type-interior">
+    <div data-role="header" data-position="fixed" data-id="foo">
+        <a href="#" data-icon="carat-l" data-rel="back" data-iconpos="notext"></a>
+        <a href="#" data-icon="bars" data-iconpos="notext"></a>
+        <h1>TALELINE</h1>
+    </div><!-- /header -->
+    
+    <h2 class="page-title">FOLLOW</h2> 
+    
+    <div calss="container" data-role="content">    
+        <img src="/img/not_yet.png" alt="" id="open" />
+        <h3>팔로우하고 있는 업체들의 리스트를 보여줌</h3>
+        <p>리스트로 쭈욱 나열된 팔로우 하고 있는 기업들의 기업명과 슬로건</p>
+    </div><!-- /content -->
+
+    <div data-role="footer" data-id="foo1" data-position="fixed" data-fullscreen="true">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-prefetch="true" data-icon="home">홈</a></li>
+                <li><a href="follow.html" data-prefetch="true" data-icon="star" class="ui-btn-active ui-state-persist">팔로우</a></li>
+                <li><a href="notification.html" data-prefetch="true" data-icon="mail">알림</a></li>
+                <li><a href="search.html" data-prefetch="true" data-icon="search">탐색</a></li>
+                <li><a href="mypage.html" data-prefetch="true" data-icon="user">마이페이지</a></li>
+            </ul>
+         </div><!-- /navbar -->
+     </div><!-- /footer -->
+</div>
+</body>
+</html>
